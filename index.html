@@ -80,6 +80,20 @@
 		<br />&nbsp;<br />
 		<center><button id="discordLink">Join the Discord!</button></center>
 	</section>
+	
+	<section id="support">
+		<h1>Need Some Private Support?</h1>
+		<span class="faded-bg">We understand sometimes that something comes up thats a little more personal but you need to tell staff. Message us with the form below</span>
+		<br />&nbsp;<br />
+		<div style="text-align: center;">
+			<input type="text" class="support" id="username" placeholder="Username">
+			<input type="text" class="support" id="discrim" placeholder="0000">
+			<input type="text" class="support" id="message" placeholder="Message...">
+			<button class="support-button" id="send">Send Message</button>
+			<br />&nbsp;<br />
+			<span id="supportStatus"></span>
+		</div>
+	</section>
 
 	<br>&nbsp;<br>
 
@@ -91,6 +105,7 @@
 	</footer>
 </body>
 <script type="text/javascript" src="assets/discord.min.js"></script>
+<script type="text/javascript" src="assets/support.min.js"></script>
 <script type="text/javascript">
 $('#discordLink').click(function() {
 	window.open('https://discord.gg/WzPNmcG','_blank')
